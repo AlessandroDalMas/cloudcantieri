@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCantiere.PreventiviInCantiere", "CloudCantiere.PreventiviInCantiere\CloudCantiere.PreventiviInCantiere.csproj", "{F45723AE-0E64-4595-948D-703EA435AE10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCantiere.Models", "CloudCantiere.Models\CloudCantiere.Models.csproj", "{FCEA00F5-D692-4AF1-9485-76BF24FF670A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCantiere.DataAccess", "CloudCantiere.DataAccess\CloudCantiere.DataAccess.csproj", "{00AB2954-77FC-49F6-A93F-5DEA729A4A87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCantiere.FunctionWorker", "CloudCantiere.FunctionWorker\CloudCantiere.FunctionWorker.csproj", "{4D1D32B3-F457-41AF-B0D6-C1FDD00C04B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCantiere.ExternalWorker", "CloudCantiere.ExternalWorker\CloudCantiere.ExternalWorker.csproj", "{AFFB2DD8-1518-44F7-9779-FD47DB330190}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F45723AE-0E64-4595-948D-703EA435AE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45723AE-0E64-4595-948D-703EA435AE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45723AE-0E64-4595-948D-703EA435AE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45723AE-0E64-4595-948D-703EA435AE10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEA00F5-D692-4AF1-9485-76BF24FF670A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEA00F5-D692-4AF1-9485-76BF24FF670A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEA00F5-D692-4AF1-9485-76BF24FF670A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEA00F5-D692-4AF1-9485-76BF24FF670A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00AB2954-77FC-49F6-A93F-5DEA729A4A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00AB2954-77FC-49F6-A93F-5DEA729A4A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00AB2954-77FC-49F6-A93F-5DEA729A4A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00AB2954-77FC-49F6-A93F-5DEA729A4A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1D32B3-F457-41AF-B0D6-C1FDD00C04B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1D32B3-F457-41AF-B0D6-C1FDD00C04B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1D32B3-F457-41AF-B0D6-C1FDD00C04B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1D32B3-F457-41AF-B0D6-C1FDD00C04B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFFB2DD8-1518-44F7-9779-FD47DB330190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFB2DD8-1518-44F7-9779-FD47DB330190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFB2DD8-1518-44F7-9779-FD47DB330190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFB2DD8-1518-44F7-9779-FD47DB330190}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B7242D9-5411-4F29-9549-C6943FD85023}
+	EndGlobalSection
+EndGlobal
